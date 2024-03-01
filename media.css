@@ -1,4 +1,4 @@
-@media screen and (max-width:1040px){
+@media screen and (max-width:1367px){
   
     nav ul{
         gap: 40px;
@@ -14,11 +14,11 @@
             width: 230px;
         }
         #main-content #main-center-text{
-            width: 45%;
+            width: 40%;
             
         }
         #main-content #main-center-text h1{
-            font-size: 2.5rem;
+            font-size: 3rem;
         
         }
         #main-center-text p{
@@ -33,7 +33,7 @@
             width: 100%;
         }
         #page-2 h1{
-            font-size: 1.7rem;
+            font-size: 2rem;
             width: 100%;
         }
         #page-2 p{
