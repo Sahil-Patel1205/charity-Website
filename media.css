@@ -1,0 +1,131 @@
+@media screen and (max-width:1025px){
+  
+    nav ul{
+        gap: 40px;
+        font-size: .9rem;
+    }
+        #main-content #main-left-image {
+            height: 300px;
+            width: 200px;
+            margin-left: 20px;
+        }
+        #main-content #main-right-image{
+            height: 400px;
+            width: 230px;
+        }
+        #main-content #main-center-text{
+            width: 45%;
+            
+        }
+        #main-content #main-center-text h1{
+            font-size: 2.5rem;
+        
+        }
+        #main-center-text p{
+            font-size: 1rem;
+        }
+        #main-center-text button{
+            margin-left: 32%;
+            height: 40px;
+            width: 150px;
+        }
+        page-2{
+            width: 100%;
+        }
+        #page-2 h1{
+            font-size: 1.7rem;
+            width: 100%;
+        }
+        #page-2 p{
+            width: 100%;
+            font-size: .8rem;
+        }
+        #page-3{
+            width: 80%;
+        }
+        #page-3 .box{
+            width: 100%;
+            height: 100%;
+            margin-bottom: 30px;
+            margin-right: 10px;
+        }
+        #page-3 .box h1{
+            font-size: 1.2rem;
+        }
+        #page-3 .box p{
+            font-size: .7rem;
+    
+        }
+}
+
+@media screen and (max-width: 479px){
+    #main-section{
+        height: 80vh;
+    }
+    nav{
+        justify-content: space-between;
+    }
+    nav h1{
+        font-size: 1rem;
+        font-weight: 800;
+    }
+    nav ul, nav #join-button{
+        display: none;
+    }
+    nav #menu{
+        display: block;
+        font-size: 1.3rem;
+    }
+    #main-content #main-left-image {
+        display: none;
+    }
+    #main-content #main-right-image{
+        display: none;
+    }
+    #main-content{
+        display: flex;
+        justify-content: center;
+    }
+    #main-content #main-center-text{
+        width: 100%;
+    }
+    #main-center-text h1{
+        font-size: 1rem;
+        
+    }
+    #main-center-text p{
+        padding: 0px 20px;
+        font-size: .7rem;
+        width: 100%;
+        font-family: "kalnia";
+    }
+    #page-2{
+        width: 90%;
+        display: block;
+    }
+    #page-2 h1{
+        font-size: 2rem;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+    #page-2 p{
+        width: 100%;
+        text-align: center;
+    }
+
+    #page-3{
+        width: 80%;
+        flex-wrap: wrap;
+    }
+    #page-3 .box{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 30px;
+    }
+    #page-3 .box p{
+        font-size: .8rem;
+
+    }
+
+}
